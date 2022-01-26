@@ -1,0 +1,44 @@
+body{
+    background-image: url("IMAGES/rosephoto.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first{
+    height: 10vh;
+    display: flex;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.left h1{
+    color: deeppink;
+    margin-left: 5px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.right button{
+    color: crimson;
+    background-color: burlywood;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.right button:hover{
+    color: white;
+}
+.second{
+    display: flex;
+    height: 70vh;
+}
+.bottom-left{
+    width: 50%;
+    display: flex;
+}
+.bottom-right{
+    width: 50%;
+    display: flex;
+}
